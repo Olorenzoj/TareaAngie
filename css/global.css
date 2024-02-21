@@ -61,6 +61,11 @@ main {
     margin: 0 auto;
 }
 
+main h2.title{
+    align-items: center;
+    text-align: center;
+}
+
 section {
     margin-bottom: 2rem;
 }
@@ -132,8 +137,8 @@ nav ul li a.active {
     color: #fff; /* Color del texto del botón */
     text-decoration: none; /* Quita el subrayado del enlace */
     border-radius: 5px; /* Borde redondeado */
-    margin-right: 20px; /* Espaciado a la derecha para separarlo del título */
-    margin-left: 20px; /* Espaciado a la izquierda */
+    margin-right: 1px; /* Espaciado a la derecha para separarlo del título */
+    margin-left: 0px; /* Espaciado a la izquierda */
     margin-top: 20px; /* Espaciado arriba */
     float: left;
 }
