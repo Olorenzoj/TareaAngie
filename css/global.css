@@ -34,17 +34,18 @@ h1 {
 /* Estilos para la barra de navegación */
 nav {
     background-color: #444;
-    padding: 0.5rem;
+    padding: 1.5rem;
 }
 
 nav ul {
     list-style: none;
     text-align: center;
+    
 }
 
 nav ul li {
     display: inline;
-    margin-right: 1rem;
+    margin: 1.5rem;
 }
 
 nav ul li a {
@@ -71,13 +72,14 @@ section h2 {
 
 section p {
     font-size: 1.1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 /* Estilos para la imagen principal */
 img {
     display: block;
     margin: 0 auto;
+    padding: 50px;
     max-width: 100%;
     height: auto;
 }
@@ -121,3 +123,21 @@ nav ul li a.active {
     padding: 0.3rem 0.5rem;
 }
 
+
+/* Estilos para el botón de inicio */
+.home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    border-radius: 5px; /* Borde redondeado */
+    margin-right: 20px; /* Espaciado a la derecha para separarlo del título */
+    margin-left: 20px; /* Espaciado a la izquierda */
+    margin-top: 20px; /* Espaciado arriba */
+    float: left;
+}
+
+.home-button:hover {
+    background-color: #555; /* Cambio de color al pasar el cursor */
+}
